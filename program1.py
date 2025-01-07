@@ -1,10 +1,24 @@
-import matplotlib.pyplot as plt
-import numpy as np
+#addition 
+print("hello"+" world")
+#division
+print(8%8)
+#subtraction
+print(7-3)
+#multiplication
+print(9*4)
+
+#variable declaration
+my_name="priya"
+#print my name
+print(my_name)
 
 
-xpoints = np.array([0,6])
-ypoints = np.array([0,250])
+#many values to multiple variables
+#a,b,c=("orange","pinapple","banana")
+#print(a)
+#print(b)
+#print(c)
 
-plt.plot(xpoints,ypoints)
-plt.show()
+a=b=c="pink"
+print(b)
 
